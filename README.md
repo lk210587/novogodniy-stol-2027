@@ -1,0 +1,1 @@
+# novogodniy-stol-2027
