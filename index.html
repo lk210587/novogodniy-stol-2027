@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Новогодний стол 2027: 10 праздничных меню, рецепты, списки покупок и бонусы. Электронный сборник PDF за 299 рублей.">
+  <title>Новогодний стол — 2027 | LK</title>
+  <style>
+    :root {
+      --red: #84252d;
+      --gold: #c5a365;
+      --cream: #fffaf2;
+      --green: #284a3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--cream);
+      color: #302b27;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #5c1721, #963542);
+      color: white;
+      text-align: center;
+      padding: 65px 20px;
+    }
+    .decor { color: #f1d59d; letter-spacing: 5px; }
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(35px, 7vw, 62px);
+      line-height: 1.15;
+      margin: 18px 0;
+    }
+    header p { font-size: 18px; }
+    .container { max-width: 900px; margin: auto; padding: 40px 22px; }
+    h2 {
+      font-family: Georgia, serif;
+      color: var(--red);
+      font-size: 29px;
+      text-align: center;
+    }
+    .intro { text-align: center; font-size: 18px; }
+    .price {
+      font-size: 42px;
+      font-weight: bold;
+      color: var(--red);
+      margin: 14px 0;
+    }
+    .button {
+      display: inline-block;
+      background: var(--red);
+      color: white;
+      border: 0;
+      padding: 16px 35px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .button:hover { background: #641b23; }
+    .offer { text-align: center; margin: 35px 0; }
+    .card {
+      background: white;
+      border: 1px solid #eee0ca;
+      border-radius: 16px;
+      padding: 25px;
+      margin: 20px 0;
+      box-shadow: 0 5px 18px #3a23100d;
+    }
+    .menus {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+    .menus li {
+      background: white;
+      padding: 14px;
+      border-left: 4px solid var(--gold);
+      border-radius: 6px;
+    }
+    .bonus { color: var(--green); }
+    footer {
+      background: #301e20;
+      color: white;
+      text-align: center;
+      padding: 28px 15px;
+      font-size: 14px;
+    }
+    footer a { color: #f1d59d; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="decor">✦ ❄ ✦ ❄ ✦</div>
+  <h1>Новогодний стол — 2027</h1>
+  <p>10 праздничных меню для уютного и вкусного Нового года</p>
+  <div class="decor">✦ ✧ ✦</div>
+</header>
+
+<main class="container">
+
+  <section class="intro">
+    <h2>Праздник начинается с готового меню!</h2>
+    <p>
+      Не нужно часами придумывать, что приготовить.
+      Выбирайте подходящий праздничный стол,
+      готовьте по понятным рецептам и наслаждайтесь праздником.
+    </p>
+    <div class="offer">
+      <div class="price">299 ₽</div>
+      <button class="button" type="button" onclick="buyBook()">
+        🎁 Купить сборник
+      </button>
+      <p>Электронный формат PDF</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Что внутри сборника?</h2>
+    <ul class="menus">
+      <li>01. Классический семейный стол</li>
+      <li>02. Уютный стол с рыбой</li>
+      <li>03. Праздник в частном доме</li>
+      <li>04. Лёгкий праздничный стол</li>
+      <li>05. Традиции в новом оформлении</li>
+      <li>06. Мясной праздничный вечер</li>
+      <li>07. Рыбный новогодний стол</li>
+      <li>08. Полезный праздничный стол</li>
+      <li>09. Быстрый праздничный стол</li>
+      <li>10. Элегантный зимний вечер</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 class="bonus">🎁 Бонусы</h2>
+    <p>Дополнительные рецепты хлеба, кекса и вафель.</p>
+    <p>Списки покупок для праздничных меню.</p>
+    <p>Советы по подготовке и встрече Нового 2027 года.</p>
+  </section>
+
+  <section class="card">
+    <h2>Как получить сборник?</h2>
+    <p>
+      После подключения оплаты вы сможете оплатить
+      заказ через Robokassa и получить PDF-сборник
+      по предусмотренной для покупателей ссылке.
+    </p>
+  </section>
+
+  <section class="offer">
+    <h2>Подарите себе праздник без лишних хлопот</h2>
+    <div class="price">299 ₽</div>
+    <button class="button" type="button" onclick="buyBook()">
+      Купить за 299 ₽
+    </button>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 LK · Новогодний стол — 2027</p>
+  <p>Электронный сборник рецептов</p>
+</footer>
+
+<script>
+  function buyBook() {
+    alert("Кнопку оплаты Robokassa подключим следующим шагом.");
+  }
+</script>
+
+</body>
+</html>
